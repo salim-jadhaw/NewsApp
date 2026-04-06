@@ -75,6 +75,7 @@ class HomeScreen : AppCompatActivity() {
         val intent = Intent(this, WebViewScreen::class.java)
         intent.putExtra("url", url)
         startActivity(intent)
+        
     }
 
     private fun saveToHistory(url: String) {

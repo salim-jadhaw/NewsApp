@@ -18,6 +18,8 @@ class HistoryScreen : AppCompatActivity() {
     private lateinit var binding: ActivityHistoryScreenBinding
     private lateinit var historyAdapter: HistoryAdapter
 
+    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHistoryScreenBinding.inflate(layoutInflater)
